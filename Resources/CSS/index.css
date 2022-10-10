@@ -1,0 +1,137 @@
+
+
+html{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    color: hsl(14, 99%, 4%);
+    display: block;
+    text-align: center;
+    /* background-color: hsl(49, 99%, 93%); */
+    background-color: hsl(49, 99%, 95%);
+}
+
+.header{
+    text-align: center;
+}
+
+/* Navigation */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar a{
+    text-decoration: none;
+    
+}
+a:hover{
+    font-size: 1.25rem;
+    background-color: yellowgreen;
+    border-radius: 85%;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+a:active{
+    color: white;
+    background-color: darkgreen;
+    font-size: 1.15rem;
+    border-radius: 75%;
+    cursor: grab;
+}
+
+
+/* Mission */
+h2, h3, h4, p{
+    margin: 0;
+    padding: 0.8rem;
+}
+.mission{
+    display: flex;
+    height: 18rem;
+    background-image: url(../images/background_our_mission.jpg);
+    padding-top: 2rem;
+}
+.mission .content{
+    margin: auto;
+    background-color:hsl(49, 99%, 99%);
+    opacity: 0.8;
+    width: 100%;
+}
+
+
+
+/* Discoveries */
+
+#discoveries{
+    min-height: 39rem;
+    margin: auto;
+    padding-top: 3.8rem ;
+}
+
+
+.discoveries-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discovery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discovery img{
+    display: flex;
+    margin-left: 2rem;
+    /* margin-right: auto; */
+    width: 20rem;
+    padding: 1rem;
+    /* height: auto; */
+    max-height: 20rem;
+    
+}
+
+.discovery figcaption{
+    padding: 0.5rem;
+    min-width: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Team Panel */
+
+.team-container{
+    background-image: url(../images/Team_background.jpg);
+    padding-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#team h2{
+    padding-top: 5%;
+}
+.teammate{
+    padding: 0.9rem;
+    color: hsl(329, 80%, 29%);
+    flex-basis: 5rem;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.teammate img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: auto;
+}
+
+/* contact & footer panel */
+.contact, .copyright{
+    padding-top: 1.5rem;
+
+}
